@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Photo Gallery</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    padding:20px;
+}
+
+h1{
+    text-align:center;
+    color:white;
+    margin-bottom:30px;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap:20px;
+    max-width:1200px;
+    margin:auto;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,0.3);
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px) scale(1.03);
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.caption{
+    padding:12px;
+    text-align:center;
+    font-weight:bold;
+    color:#555;
+}
+
+</style>
+
+</head>
+<body>
+
+<h1>Photo Gallery</h1>
+
+<div class="gallery">
+
+<!-- 1 -->
+<div class="card">
+<img src="https://picsum.photos/400/300?1">
+<div class="caption">Beautiful Nature</div>
+</div>
+
+<!-- 2 -->
+<div class="card">
+<img src="https://picsum.photos/400/300?2">
+<div class="caption">Mountain View</div>
+</div>
+
+<!-- 3 -->
+<div class="card">
+<img src="https://picsum.photos/400/300?3">
+<div class="caption">City Lights</div>
+</div>
+
+<!-- 4 -->
+<div class="card">
+<img src="https://picsum.photos/400/300?4">
+<div class="caption">Ocean Sunset</div>
+</div>
+
+<!-- 5 -->
+<div class="card">
+<img src="https://picsum.photos/400/300?5">
+<div class="caption">Green Forest</div>
+</div>
+
+<!-- 6 -->
+<div class="card">
+<img src="https://picsum.photos/400/300?6">
+<div class="caption">Desert Beauty</div>
+</div>
+
+<!-- 7 -->
+<div class="card">
+<img src="https://picsum.photos/400/300?7">
+<div class="caption">River Side</div>
+</div>
+
+<!-- 8 -->
+<div class="card">
+<img src="https://picsum.photos/400/300?8">
+<div class="caption">Snow Mountains</div>
+</div>
+
+<!-- 9 -->
+<div class="card">
+<img src="https://picsum.photos/400/300?9">
+<div class="caption">Sunrise Glow</div>
+</div>
+
+<!-- 10 -->
+<div class="card">
+<img src="https://picsum.photos/400/300?10">
+<div class="caption">Beach View</div>
+</div>
+
+<!-- 11 -->
+<div class="card">
+<img src="https://picsum.photos/400/300?11">
+<div class="caption">Sky Clouds</div>
+</div>
+
+<!-- 12 -->
+<div class="card">
+<img src="https://picsum.photos/400/300?12">
+<div class="caption">Waterfall</div>
+</div>
+
+<!-- 13 -->
+<div class="card">
+<img src="https://picsum.photos/400/300?13">
+<div class="caption">Night City</div>
+</div>
+
+<!-- 14 -->
+<div class="card">
+<img src="https://picsum.photos/400/300?14">
+<div class="caption">Road Trip</div>
+</div>
+
+<!-- 15 -->
+<div class="card">
+<img src="https://picsum.photos/400/300?15">
+<div class="caption">Flowers Garden</div>
+</div>
+
+<!-- 16 -->
+<div class="card">
+<img src="https://picsum.photos/400/300?16">
+<div class="caption">Wild Nature</div>
+</div>
+
+<!-- 17 -->
+<div class="card">
+<img src="https://picsum.photos/400/300?17">
+<div class="caption">Lake View</div>
+</div>
+
+<!-- 18 -->
+<div class="card">
+<img src="https://picsum.photos/400/300?18">
+<div class="caption">Golden Sunset</div>
+</div>
+
+<!-- 19 -->
+<div class="card">
+<img src="https://picsum.photos/400/300?19">
+<div class="caption">Adventure Time</div>
+</div>
+
+<!-- 20 -->
+<div class="card">
+<img src="https://picsum.photos/400/300?20">
+<div class="caption">Nature Beauty</div>
+</div>
+
+<!-- 21 -->
+<div class="card">
+<img src="https://picsum.photos/400/300?21">
+<div class="caption">Forest Path</div>
+</div>
+
+<!-- 22 -->
+<div class="card">
+<img src="https://picsum.photos/400/300?22">
+<div class="caption">Blue Ocean</div>
+</div>
+
+</div>
+
+</body>
+</html>
